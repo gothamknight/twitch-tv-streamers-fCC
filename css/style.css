@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  /*border: orange 1px dotted;*/
+  font-size: 10px;
+  font-family: 'Jura', sans-serif;
+}
+body {
+  text-align:center;
+  background-color: rgb(28, 23, 45);
+  color: white;
+  min-width: 335px;
+}
+header {
+  background-color: rgb(44,38,64);
+}
+#heading {
+  padding: 4rem;
+  text-align: center;
+  font-weight: 200;
+  font-size: 4.7rem; 
+  background-color: rgb(44,38,64);
+}
+#options-div {
+  width:100% ;
+  padding-bottom:4rem;
+  text-align: center;
+}
+.options {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: inline-block;
+  width: 90px;
+  margin: 0px 10px 0px 10px;
+  border: white 1px solid;
+}
+.options:hover {
+  background-color: white;
+  color: rgb(44,38,64);
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+section {
+  background-color: rgb(28, 23, 45);
+}
+#filler {
+  background-color: rgb(28, 23, 45);
+  border-top: white 2px solid;
+  padding-top: 4rem;
+}
+.streamers-div {
+  width: 520px;
+  display: inline-block;
+  margin: 10px;
+  height: 100px;
+  text-align: left;
+  border: white 2px solid;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-left: none;
+  background-color: rgb(44,38,64);
+}
+.logo {
+  height: 95px;
+  width: 95px;
+  border-radius: 95px;
+  position: relative;
+  left:0.2px;
+  float: left;
+  border: white 2px solid;
+}
+.logo-div {
+  display:inline-block;
+  height: 94px;
+}
+.streamer-info-div {
+  position: relative;
+  display: inline-block;
+  bottom: 25px;
+  margin:10px;
+  width: 390px;
+}
+h2 {
+  display: inline-block;
+  font-size: 22px;
+}
+p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 4px;
+  display:inline-block;
+  float: right;
+}
+.game {
+  font-weight: 200;
+  position: relative;
+  bottom:29px;
+}
+h3 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+footer {
+  background-color: rgb(28, 23, 45);
+  height: 4rem;
+}
+/*MEDIA QUERIES*/
+@media only screen and (max-width:558px){
+  .streamers-div {
+    width: 380px;
+    display: inline-block;
+    margin: 10px;
+    height: 100px;
+    text-align: left;
+    border: white 2px solid;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-left: none;
+    background-color: rgb(44,38,64);
+  }
+  .streamer-info-div {
+    position: relative;
+    display: inline-block;
+    bottom: 25px;
+    margin:10px;
+    width: 250px;
+  }
+}/*1st media query*/
+@media only screen and (max-width:418px){
+   .streamers-div {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    height: 100px;
+    text-align: left;
+    border: white 2px solid;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-left: none;
+    background-color: rgb(44,38,64);
+  }
+  .streamer-info-div {
+    position: relative;
+    display: inline-block;
+    bottom: 25px;
+    margin:10px;
+    width: 180px;
+  } 
+  .game {
+    display: none;
+  }
+}/*2nd media query*/
